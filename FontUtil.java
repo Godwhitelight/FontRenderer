@@ -5,6 +5,14 @@ import net.minecraft.util.ResourceLocation;
 
 import java.awt.*;
 
+    /*
+    DO NOT REMOVE
+        ****************************
+        * CREATED BY G0dwhitelight *
+        ****************************
+    DO NOT REMOVE
+     */
+
 public class FontUtil {
 
     public static Font getFontFromTTF(ResourceLocation fontLocation, float fontSize, int fontType) {
