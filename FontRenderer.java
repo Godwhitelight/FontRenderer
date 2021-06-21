@@ -11,6 +11,15 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
+    /*
+    DO NOT REMOVE
+        ****************************
+        * CREATED BY G0dwhitelight *
+        ****************************
+    DO NOT REMOVE
+     */
+
 public class FontRenderer extends CFont {
     protected CFont.CharData[] boldChars = new CFont.CharData[256];
     protected CFont.CharData[] italicChars = new CFont.CharData[256];
