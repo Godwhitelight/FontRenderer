@@ -1,4 +1,4 @@
-package God.Shush.Fonts;
+package CreidtMe.Packege;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
