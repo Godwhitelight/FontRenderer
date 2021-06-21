@@ -1,4 +1,6 @@
-# FontRenderer
+#   <h3 align="center">FontRenderer</h3>
+  <h3 align="center">🌟Star this project to support me!🌟</h3>
+
 A simple Font renderer for MCP. need to credit me.
 
 FEEL FREE TO STAR ME. WORKED HARD ON THIS PROJECT.
