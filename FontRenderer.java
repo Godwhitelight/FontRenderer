@@ -1,4 +1,4 @@
-package God.Shush.Fonts;
+package CreidtMe.Packege;
 
 
 import net.minecraft.client.Minecraft;
@@ -18,16 +18,8 @@ public class FontRenderer extends CFont {
 
     private final int[] colorCode = new int[32];
 
-    //No longer used -- kept here just in case
-    //private final String		colorCodeIdentifiers	= "0123456789abcdefklmnor";
-
     /*
-     * TODO: FINISHED -- Make double versions of every draw method in the font renderer
-     *  so that casting vars to a float isn't needed when the positions are doubles (java great yay)
-     *
-     * TODO: Doesn't work with some serif fonts for some reason, probably change CFont generating the font image...
-     *
-     * TODO: Add an argument for font size in the draw methods to eliminate the objects in Fonts.java
+        CREDIT G0dwhitelight.
      */
     public FontRenderer(Font font, boolean antiAlias, boolean fractionalMetrics) {
         super(font, antiAlias, fractionalMetrics);
@@ -36,7 +28,7 @@ public class FontRenderer extends CFont {
     }
 
     public FontRenderer(String NameFontTTF, int size, int fonttype, boolean antiAlias, boolean fractionalMetrics) {
-        super(FontUtil.getFontFromTTF(new ResourceLocation("Shush/Fonts/" + NameFontTTF+".ttf"), size,fonttype), antiAlias, fractionalMetrics);
+        super(FontUtil.getFontFromTTF(new ResourceLocation("YourClientAssetsFolder/Fonts" + NameFontTTF+".ttf"), size,fonttype), antiAlias, fractionalMetrics);
         setupMinecraftColorcodes();
         setupBoldItalicIDs();
     }
