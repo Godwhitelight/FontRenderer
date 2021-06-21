@@ -8,6 +8,15 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
+
+    /*
+    DO NOT REMOVE
+        ****************************
+        * CREATED BY G0dwhitelight *
+        ****************************
+    DO NOT REMOVE
+     */
+
 public class CFont
 {
     private float imgSize = 512;
