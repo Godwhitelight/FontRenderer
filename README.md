@@ -1,6 +1,8 @@
 # FontRenderer
 A simple Font renderer for MCP. need to credit me.
 
+FEEL FREE TO STAR ME. WORKED HARD ON THIS PROJECT.
+
 __How to add__:
   - Change all the package names to your own.
   - In FontRenderer.java line 31 Change the location to your own folder.
