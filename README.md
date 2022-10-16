@@ -10,14 +10,14 @@ __How to add__:
 __How to use__:
   
   NEEDED A FONT FOLDER.
-  ```
-    public static FontRenderer fr = new FontRenderer("Moon Light",20,Font.PLAIN,true,true);
+  ```java
+    public static FontRenderer fr = new FontRenderer("Moon Light", 20, Font.PLAIN, true, true);
     fr.drawStringWithShadow("Your String", 3, 3, Color.WHITE.getRGB());
   ```
   OR
   
   NOT NEEDED A FONT FOLDER.
-  ```
-    public static FontRenderer fr = new FontRenderer(new Font("Moon Light", 20,Font.PLAIN),true,true);
+  ```java
+    public static FontRenderer fr = new FontRenderer(new Font("Moon Light", 20, Font.PLAIN), true, true);
     fr.drawStringWithShadow("Your String", 3, 3, Color.WHITE.getRGB());
   ```
